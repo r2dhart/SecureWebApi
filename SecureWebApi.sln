@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureWebApi", "SecureWebApi\SecureWebApi.csproj", "{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureAPIClient", "SecureAPIClient\SecureAPIClient.csproj", "{AD673872-4831-450F-B200-9419E5D2E31C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F} = {7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC72BAA-AFDD-4F82-8DEF-7A2C36F3D72F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD673872-4831-450F-B200-9419E5D2E31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD673872-4831-450F-B200-9419E5D2E31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD673872-4831-450F-B200-9419E5D2E31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD673872-4831-450F-B200-9419E5D2E31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512955EC-D3AF-4993-A4EC-18D3DA9B750C}
+	EndGlobalSection
+EndGlobal
